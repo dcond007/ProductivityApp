@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Productivity App</string>
+    <string name="really_long_string">Note that a ScrollView can only contain a single child element so if you need multiple things to be scrollable, you need to wrap that content into a layout as shown above.  In certain situations, you want to position content beneath the end of the scrollable content area. For example for a \"terms of service\" where you can only accept once you\'ve scrolled through all the content. In this case, you might need to apply the android:fillViewport property to \"true\". Read this post by Romain Guy for a detailed look at this use case.</string>
 </resources>

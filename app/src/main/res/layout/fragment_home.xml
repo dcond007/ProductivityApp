@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray">
+    android:background="@android:color/white">
 
 
     <CalendarView
@@ -27,15 +27,17 @@
         android:layout_marginBottom="145dp"
         android:src="@drawable/forest" />
 
+
     <TextView
         android:id="@+id/tvUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
         android:layout_toEndOf="@+id/ivProfilepic"
-        tools:text="UserName" />
+        tools:text="UserName"
+        android:textSize="32sp"/>
 
     <TextView
         android:id="@+id/tvAssigned"
